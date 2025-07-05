@@ -35,6 +35,5 @@ async def root():
         "endpoints": {
             "POST /generate-diff": "Generate a unified diff for a GitHub repository",
             "GET /health": "Health check endpoint",
-            "GET /docs": "OpenAPI documentation"
         }
     }
